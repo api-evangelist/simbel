@@ -1,7 +1,17 @@
 aid: simbel
 name: Simbel
-description: Simbel is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Simbel is a Paris-based HR technology company (founded 2021, backed by
+  Speedinvest) offering a smart, unified training management suite that combines
+  a Training Management System (TMS) and a Learning Management System (LMS) in
+  one platform. It helps HR and L&D teams automate the full training lifecycle,
+  from need assessment and request approvals through session organization,
+  e-learning delivery, real-time reporting, and legal compliance (BPF, Qualiopi,
+  BDES). Simbel connects to major HRIS and learning tools such as Workday, SAP
+  SuccessFactors, ADP, Lucca, Payfit, BambooHR, 360Learning, and Docebo through
+  pre-built integrations. As of this enrichment pass Simbel publishes no public
+  developer API, API documentation, or developer portal; integrations are
+  delivered as managed connectors rather than a self-serve public API.
 url: https://raw.githubusercontent.com/api-evangelist/simbel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,66 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/5f62405b9251cbe6c13adcd9/61813bd496c3c281e2c8ee7c_final_logo%202.png
 tags:
 - Company
+- Training
+- Learning Management System
+- LMS
+- Training Management System
+- TMS
+- Human Resources
+- Learning and Development
+- HR Tech
+- Compliance
+- EdTech
 apis: []
+common:
+- type: Website
+  url: https://www.simbel.com/en
+- type: LMS
+  url: https://www.simbel.com/en/lms
+- type: Integrations
+  url: https://www.simbel.com/integrations
+- type: Pricing
+  url: https://www.simbel.com/en/tarifs
+- type: Blog
+  url: https://www.simbel.com/en/blog
+- type: Support
+  url: https://www.simbel.com/en/contact
+- type: SignUp
+  url: https://app.simbel.fr
+- type: Login
+  url: https://app.simbel.fr
+- type: TermsOfService
+  url: https://www.simbel.com/en/mentions-legales
+- type: PrivacyPolicy
+  url: https://www.simbel.com/en/confidentialite
+- type: About
+  url: https://www.simbel.com/en/entreprise
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/simbel
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
